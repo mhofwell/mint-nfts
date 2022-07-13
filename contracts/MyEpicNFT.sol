@@ -102,7 +102,7 @@ contract MyEpicNFT is ERC721URIStorage {
         uint256 newNftId = _tokenIds.current();
         console.log(newNftId);
 
-        require(newNftId < 50, "All 10 NFTs have been minted!");
+        require(newNftId < 50, "All 50 NFTs have been minted!");
 
         string memory first = pickRandomColor(newNftId);
         string memory second = pickRandomCountry(newNftId);
