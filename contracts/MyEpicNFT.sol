@@ -26,7 +26,8 @@ contract MyEpicNFT is ERC721URIStorage {
         "English",
         "Czech",
         "Italian",
-        "French"
+        "French",
+        "Latvian"
     ];
 
     string[] style = [
